@@ -2,6 +2,7 @@ import Vue from 'vue'
 import Router from 'vue-router'
 
 import Test from '@/components/test'
+import TestPage from '@/pages/testPage'
 Vue.use(Router)
 
 const router = new Router({
@@ -9,6 +10,10 @@ const router = new Router({
     path: '/test',
     name: 'test',
     component: Test
+  }, {
+    path: '/testPage',
+    name: 'testPage',
+    component: TestPage
   }
   ]
 })
