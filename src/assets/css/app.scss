@@ -1,0 +1,39 @@
+@function torem($px) {
+  @return $px * 1 / 100 * 1rem;
+}
+body,html,input,div,p,ul,li,ol,h4,button,img,h4,h5,h1,span {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: PingFangSC-Regular;
+}
+body,html{
+  color: #333333;
+}
+ol,
+ul {
+  list-style: none;
+}
+.clearfix:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+.clearfix {
+  zoom: 1;
+}
+a {
+  color: #000;
+  text-decoration: none !important;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+img,input,button {
+  border: none;
+  outline:none
+}
+input,
+img {
+  vertical-align: middle;
+}
